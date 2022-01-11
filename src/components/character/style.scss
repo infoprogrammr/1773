@@ -1,0 +1,72 @@
+@import "../../variables";
+
+.Character {
+  @include box-shadow(0 2px 4px 0 rgba(0, 0, 0, 0.4));
+  display: flex;
+  flex-flow: column nowrap;
+  margin-bottom: 15px;
+  border: {
+    width: 1px;
+    style: solid;
+    color: $gray-light;
+  };
+
+  &-name {
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 20px 10px 10px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  &-image {
+    height: 292px;
+    background: {
+      position: center;
+      size: cover;
+      repeat: no-repeat;
+    };
+  }
+
+  &-description {
+    padding: 5px 10px 0;
+  }
+
+  &-link.btn {
+    font-family: $rma-font-family-oswald;
+    margin-top: auto;
+    border-radius: 0;
+  }
+
+  &-modal {
+    .modal-title {
+      font-family: $rma-font-family-oswald;
+    }
+
+    .modal-body {
+      display: flex;
+      flex-flow: row wrap;
+    }
+
+    &-img {
+      height: 200px;
+      width: 200px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+    }
+
+    &-desc {
+      flex: 1 1 0;
+    }
+
+    &-tabs {
+      width: 100%;
+
+      .nav-tabs {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+[{"input":"john","output":"Hello john","error":"your output did not match the inputs?","priority":3,"name":"john"},{"input":"jane","output":"Hello jane","error":"your output did not match the inputs?","priority":3,"name":"jane"},{"input":"WeIrDo","output":"Hello WeIrDo","error":"incorrect logic","priority":3,"name":"case sensitive"}]

@@ -1,0 +1,1 @@
+{"mainfile":"src/App.js","previewWebApp":true,"viewtype":"browser","runmenucommand":"sh /home/theia/startreact.sh && cp -r /home/theia/reactnode/node_modules ./ && npm start;","testmenucommand":"> .testcaseop && :> .testcaseop2 && sh ./test.sh > ./.testcaseop","showterminal":true,"showQuestionInPopup":true,"outputtype":"web"}
